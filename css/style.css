@@ -1,0 +1,66 @@
+body {
+  font-family: Lexend Deca, sans-serif;
+  font-weight: 400;
+  color: white;
+  background-color: hsl(0, 0%, 95%);
+}
+.container {
+  text-align: center;
+  margin: 100px auto !important;
+  width: 50% !important;
+  /* transform: translate(-50%, -50%); */
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%) !important;
+  border: none !important;
+  border-radius: 0% !important;
+}
+.suv {
+  background-color: hsl(184, 100%, 22%) !important;
+  border: none !important;
+  border-radius: 0% !important;
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%) !important;
+  border: none !important;
+  border-radius: 0% !important;
+}
+h5 {
+  font-family: Lexend Deca, sans-serif;
+  word-spacing: 0 !important;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 20px;
+  margin-top: 70px !important;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-top: 0 !important;
+  padding-left: 5px !important ;
+  padding-right: 5px !important ;
+  font-size: 11px;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  border: 1px solid hsl(0, 0%, 95%) !important;
+  border-radius: 20px !important;
+  margin-bottom: 20px !important;
+  margin-top: 30px !important;
+}
+.button-3 {
+  border: 1px solid hsl(0, 0%, 95%) !important;
+  border-radius: 20px !important;
+  margin-bottom: 20px !important;
+  margin-top: 15px !important;
+}
+button a {
+  color: hsl(0, 0%, 95%) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/* centralize the container and reduce the buttons */
