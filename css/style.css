@@ -1,4 +1,10 @@
+*{
+padding: 0;
+margin: 0;
+
+}
 body {
+  box-sizing: border-box;
   font-family: Lexend Deca, sans-serif;
   font-weight: 400;
   color: white;
@@ -10,8 +16,6 @@ body {
   top: 50%;
   transform: translate(-50%, 50%);
   padding: 10px;
-  /* text-align: center; */
-  /* margin: 100px auto !important; */
   width: 50% !important;
 }
 .sedan {
@@ -29,15 +33,19 @@ body {
   border: none !important;
   border-radius: 0% !important;
 }
+.img-sedan, .img-suv, .img-luxury {
+  width: 2.1875rem;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 h5 {
-  font-family: Lexend Deca, sans-serif;
-  word-spacing: 0 !important;
-  font-weight: 400;
+  font-family: font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
   font-size: 15px;
   text-align: center;
   color: hsl(0, 0%, 95%);
   padding-bottom: 20px;
-  margin-top: 70px !important;
+  margin-top:100px;
 }
 p {
   color: hsla(0, 0%, 100%, 0.75) !important;
@@ -53,19 +61,152 @@ p {
 
 button {
   border: 1px solid hsl(0, 0%, 95%) !important;
+  background-color: white;
   border-radius: 20px !important;
   margin-bottom: 20px !important;
   margin-top: 30px !important;
 }
-.button-3 {
+.button-1 {
   border: 1px solid hsl(0, 0%, 95%) !important;
+  background-color: white !important;
+  
+  border-radius: 20px !important;
+  margin-bottom: 20px !important;
+  margin-top: 30px !important;
+}
+.button-1 a{
+  color: hsl(31, 77%, 52%) !important;
+}
+.button-2 {
+  border: 1px solid hsl(0, 0%, 95%) !important;
+  background-color: white !important;
+  
   border-radius: 20px !important;
   margin-bottom: 20px !important;
   margin-top: 15px !important;
 }
-button a {
-  color: hsl(0, 0%, 95%) !important;
-  padding: 0 !important;
-  margin: 0 !important;
+.button-2 a {
+  color: hsl(184, 100%, 22%) !important;
 }
-/* centralize the container and reduce the buttons */
+.button-3 {
+  border: 1px solid hsl(0, 0%, 95%) !important;
+  background-color: white !important;
+  border-radius: 20px !important;
+  margin-bottom: 20px !important;
+  margin-top: 30px !important;
+  color: hsl(179, 100%, 13%) !important;
+}
+.button-3 a{
+  color: hsl(179, 100%, 13%) !important;
+}
+button a {
+  font-family: Lexend Deca, sans-serif;
+  text-decoration: none !important;
+
+}
+/*mobile */
+@media screen and (max-width: 576px) and (min-width: 375px) {
+    body {
+      /* margin-top: 0; */
+      font-family: Lexend Deca, sans-serif;
+      font-weight: 400;
+      color: white;
+      position: relative;
+    }
+    .container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, 50%);
+      padding: 10px;
+      border: 1px solid transparent;
+      border-radius: 10px;
+    }
+    .row{
+      flex-direction: column !important; 
+      /* to make rows display as columns in the mobile view */
+    }
+
+    .sedan {
+    background-color: hsl(31, 77%, 52%) !important;
+    height: 300px;
+    border: none !important;
+    border-radius: 0% !important;
+  }
+  .suv {
+    background-color: hsl(184, 100%, 22%) !important;
+    height: 300px;
+    border: none !important;
+    border-radius: 0% !important;
+  }
+  .luxury {
+    background-color: hsl(179, 100%, 13%) !important;
+    height: 300px;
+    border: none !important;
+    border-radius: 0% !important;
+  }
+  .img-sedan, .img-suv, .img-luxury {
+    width: 2.1875rem;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  h5 {
+    font-family: font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: left;
+    color: hsl(0, 0%, 95%);
+    margin-left: 30px;
+    padding-bottom: 20px;
+    margin-top:100px;
+  }
+  p {
+    color: hsla(0, 0%, 100%, 0.75) !important;
+    padding-top: 0 !important;
+    padding-left: 5px !important ;
+    padding-right: 5px !important ;
+    font-size: 11px !important;
+    justify-content: center !important;
+    justify-self: center !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  button {
+    border: 1px solid hsl(0, 0%, 95%) !important;
+    background-color: white;
+    border-radius: 20px !important;
+    margin-bottom: 20px !important;
+    margin-top: 30px !important;
+  }
+  .button-1 {
+    border: 1px solid hsl(0, 0%, 95%) !important;
+    background-color: white !important;
+    color: hsl(31, 77%, 52%) !important;
+    border-radius: 20px !important;
+    margin-bottom: 20px !important;
+    margin-top: 30px !important;
+  }
+  .button-2 {
+    border: 1px solid hsl(0, 0%, 95%) !important;
+    background-color: white !important;
+    color: hsl(184, 100%, 22%) !important;
+    border-radius: 20px !important;
+    margin-bottom: 20px !important;
+    margin-top: 30px !important;
+  }
+  .button-3 {
+    border: 1px solid hsl(0, 0%, 95%) !important;
+    background-color: white !important;
+    border-radius: 20px !important;
+    margin-bottom: 20px !important;
+    margin-top: 15px !important;
+    color: hsl(179, 100%, 13%) !important;
+  }
+  button a {
+    font-family: Lexend Deca, sans-serif;
+  }
+}
+
+
