@@ -2,13 +2,17 @@ body {
   font-family: Lexend Deca, sans-serif;
   font-weight: 400;
   color: white;
-  background-color: hsl(0, 0%, 95%);
+  position: relative;
 }
 .container {
-  text-align: center;
-  margin: 100px auto !important;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 50%);
+  padding: 10px;
+  /* text-align: center; */
+  /* margin: 100px auto !important; */
   width: 50% !important;
-  /* transform: translate(-50%, -50%); */
 }
 .sedan {
   background-color: hsl(31, 77%, 52%) !important;
@@ -30,20 +34,21 @@ h5 {
   word-spacing: 0 !important;
   font-weight: 400;
   font-size: 15px;
+  text-align: center;
   color: hsl(0, 0%, 95%);
   padding-bottom: 20px;
   margin-top: 70px !important;
 }
 p {
-  color: hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75) !important;
   padding-top: 0 !important;
   padding-left: 5px !important ;
   padding-right: 5px !important ;
-  font-size: 11px;
-  justify-content: center;
-  justify-self: center;
-  align-items: center;
-  text-align: center;
+  font-size: 11px !important;
+  justify-content: center !important;
+  justify-self: center !important;
+  align-items: center !important;
+  text-align: center !important;
 }
 
 button {
