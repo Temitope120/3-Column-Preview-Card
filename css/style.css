@@ -42,7 +42,7 @@ h5 {
   font-family: font-family: 'Big Shoulders Display', cursive;
   font-weight: 700;
   font-size: 15px;
-  text-align: center;
+  text-align: left;
   color: hsl(0, 0%, 95%);
   padding-bottom: 20px;
   margin-top:100px;
@@ -52,57 +52,51 @@ p {
   padding-top: 0 !important;
   padding-left: 5px !important ;
   padding-right: 5px !important ;
-  font-size: 11px !important;
+  font-size: 15px !important;
   justify-content: center !important;
   justify-self: center !important;
   align-items: center !important;
   text-align: center !important;
 }
 
-button {
-  border: 1px solid hsl(0, 0%, 95%) !important;
-  background-color: white;
-  border-radius: 20px !important;
-  margin-bottom: 20px !important;
-  margin-top: 30px !important;
-}
-.button-1 {
-  border: 1px solid hsl(0, 0%, 95%) !important;
+ button {
+  margin-bottom: 40px !important;
+  margin-top: 40px !important;
+} 
+
+a{
   background-color: white !important;
-  
+  border: 1px solid transparent !important;
   border-radius: 20px !important;
-  margin-bottom: 20px !important;
-  margin-top: 30px !important;
+
+  text-decoration: none !important;
+  text-align:center;
+  padding:10px 15px !important;
+  font-size: 11px;
+  font-family: font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
 }
-.button-1 a{
+
+.link-1 {
   color: hsl(31, 77%, 52%) !important;
 }
-.button-2 {
-  border: 1px solid hsl(0, 0%, 95%) !important;
-  background-color: white !important;
-  
-  border-radius: 20px !important;
-  margin-bottom: 20px !important;
-  margin-top: 15px !important;
-}
-.button-2 a {
+
+.link-2  {
   color: hsl(184, 100%, 22%) !important;
 }
-.button-3 {
-  border: 1px solid hsl(0, 0%, 95%) !important;
-  background-color: white !important;
-  border-radius: 20px !important;
-  margin-bottom: 20px !important;
-  margin-top: 30px !important;
-  color: hsl(179, 100%, 13%) !important;
-}
-.button-3 a{
-  color: hsl(179, 100%, 13%) !important;
-}
-button a {
-  font-family: Lexend Deca, sans-serif;
-  text-decoration: none !important;
 
+.link-3 {
+  color: hsl(179, 100%, 13%) !important;
+}
+
+/* hover property */
+ a:hover {
+  border: 1px solid white !important;
+  background:none !important;
+  color: white !important;
+  cursor: pointer !important;
+
+  /* white hover color should appply when a user hovers on the button and the link too */
 }
 /*mobile */
 @media screen and (max-width: 576px) and (min-width: 375px) {
@@ -173,14 +167,14 @@ button a {
     text-align: center !important;
   }
 
-  button {
+  /* button {
     border: 1px solid hsl(0, 0%, 95%) !important;
     background-color: white;
     border-radius: 20px !important;
     margin-bottom: 20px !important;
     margin-top: 30px !important;
   }
-  .button-1 {
+  .link-1 {
     border: 1px solid hsl(0, 0%, 95%) !important;
     background-color: white !important;
     color: hsl(31, 77%, 52%) !important;
@@ -188,7 +182,7 @@ button a {
     margin-bottom: 20px !important;
     margin-top: 30px !important;
   }
-  .button-2 {
+  .link-2 {
     border: 1px solid hsl(0, 0%, 95%) !important;
     background-color: white !important;
     color: hsl(184, 100%, 22%) !important;
@@ -196,7 +190,7 @@ button a {
     margin-bottom: 20px !important;
     margin-top: 30px !important;
   }
-  .button-3 {
+  .link-3 {
     border: 1px solid hsl(0, 0%, 95%) !important;
     background-color: white !important;
     border-radius: 20px !important;
@@ -206,7 +200,50 @@ button a {
   }
   button a {
     font-family: Lexend Deca, sans-serif;
-  }
+  } */
+
+
+
+/*  */
+  button {
+  margin-bottom: 40px !important;
+  margin-top: 40px !important;
+} 
+
+a{
+  background-color: white !important;
+  border: 1px solid transparent !important;
+  border-radius: 20px !important;
+
+  text-decoration: none !important;
+  text-align:center;
+  padding:10px 15px !important;
+  font-size: 11px;
+  font-family: font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+}
+
+.link-1 {
+  color: hsl(31, 77%, 52%) !important;
+}
+
+.link-2  {
+  color: hsl(184, 100%, 22%) !important;
+}
+
+.link-3 {
+  color: hsl(179, 100%, 13%) !important;
+}
+
+/* hover property */
+ a:hover {
+  border: 1px solid white !important;
+  background:none !important;
+  color: white !important;
+  cursor: pointer !important;
+
+  /* white hover color should appply when a user hovers on the button and the link too */
+}
 }
 
 
