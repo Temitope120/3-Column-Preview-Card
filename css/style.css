@@ -4,6 +4,8 @@ margin: 0;
 
 }
 body {
+  padding: 0 !important;
+margin: 0 !important;
   box-sizing: border-box;
   font-family: Lexend Deca, sans-serif;
   font-weight: 400;
@@ -48,7 +50,7 @@ h5 {
   margin-top:100px;
 }
 p {
-  color: hsla(0, 0%, 100%, 0.75) !important;
+  color: hsla(0, 0%, 100%, 0.75)!important;
   padding-top: 0 !important;
   padding-left: 5px !important ;
   padding-right: 5px !important ;
@@ -72,9 +74,10 @@ a{
   text-decoration: none !important;
   text-align:center;
   padding:10px 15px !important;
-  font-size: 11px;
-  font-family: font-family: 'Big Shoulders Display', cursive;
-  font-weight: 700;
+  font-size: 15px;
+  /* font-family:'Big Shoulders Display', cursive; */
+  font-family:Lexend Deca, sans-serif !important;
+  font-weight: 600;
 }
 
 .link-1 {
@@ -101,7 +104,7 @@ a{
 /*mobile */
 @media screen and (max-width: 576px) and (min-width: 375px) {
     body {
-      /* margin-top: 0; */
+      /* border-top: tomato !important; */
       font-family: Lexend Deca, sans-serif;
       font-weight: 400;
       color: white;
@@ -110,116 +113,88 @@ a{
     .container {
       position: absolute;
       left: 50%;
-      top: 50%;
-      transform: translate(-50%, 50%);
-      padding: 10px;
-      border: 1px solid transparent;
-      border-radius: 10px;
+      top: 10%;
+      /* height: 910px; */
+      margin-bottom: 20px !important;
+      transform: translate(-50%, 5%);
+      padding: 5px;
+      border: 1px solid transparent !important;
+      border-radius: 10px !important;
     }
     .row{
       flex-direction: column !important; 
       /* to make rows display as columns in the mobile view */
+      width: 195px !important;
+      /* border: 1px solid transparent !important;
+      border-radius: 20px !important; */
     }
 
     .sedan {
     background-color: hsl(31, 77%, 52%) !important;
-    height: 300px;
+    /* height: 300px; */
     border: none !important;
     border-radius: 0% !important;
   }
   .suv {
     background-color: hsl(184, 100%, 22%) !important;
-    height: 300px;
+    /* height: 300px; */
     border: none !important;
     border-radius: 0% !important;
   }
   .luxury {
     background-color: hsl(179, 100%, 13%) !important;
-    height: 300px;
+    /* height: 300px; */
     border: none !important;
     border-radius: 0% !important;
   }
   .img-sedan, .img-suv, .img-luxury {
     width: 2.1875rem;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 30px;
     margin-bottom: 20px;
   }
   h5 {
     font-family: font-family: 'Big Shoulders Display', cursive;
+    /* font-family: lexend Deca, sans-serif; */
     font-weight: 700;
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
     color: hsl(0, 0%, 95%);
-    margin-left: 30px;
+    margin-left: 10px;
     padding-bottom: 20px;
     margin-top:100px;
   }
   p {
     color: hsla(0, 0%, 100%, 0.75) !important;
+      margin-left: 5px;
     padding-top: 0 !important;
-    padding-left: 5px !important ;
-    padding-right: 5px !important ;
+    padding-left: 10px !important ;
+    padding-right: 10px !important ;
     font-size: 11px !important;
-    justify-content: center !important;
+    /* justify-content: center !important;
     justify-self: center !important;
-    align-items: center !important;
-    text-align: center !important;
+    align-items: center !important; */
+    text-align: left !important;
   }
-
-  /* button {
-    border: 1px solid hsl(0, 0%, 95%) !important;
-    background-color: white;
-    border-radius: 20px !important;
-    margin-bottom: 20px !important;
-    margin-top: 30px !important;
-  }
-  .link-1 {
-    border: 1px solid hsl(0, 0%, 95%) !important;
-    background-color: white !important;
-    color: hsl(31, 77%, 52%) !important;
-    border-radius: 20px !important;
-    margin-bottom: 20px !important;
-    margin-top: 30px !important;
-  }
-  .link-2 {
-    border: 1px solid hsl(0, 0%, 95%) !important;
-    background-color: white !important;
-    color: hsl(184, 100%, 22%) !important;
-    border-radius: 20px !important;
-    margin-bottom: 20px !important;
-    margin-top: 30px !important;
-  }
-  .link-3 {
-    border: 1px solid hsl(0, 0%, 95%) !important;
-    background-color: white !important;
-    border-radius: 20px !important;
-    margin-bottom: 20px !important;
-    margin-top: 15px !important;
-    color: hsl(179, 100%, 13%) !important;
-  }
-  button a {
-    font-family: Lexend Deca, sans-serif;
-  } */
 
 
 
 /*  */
   button {
-  margin-bottom: 40px !important;
-  margin-top: 40px !important;
+  margin-bottom: 20px !important;
+  margin-left:5px !important;
+  margin-top: 0px !important;
+  text-align: left !important;
 } 
 
 a{
   background-color: white !important;
   border: 1px solid transparent !important;
   border-radius: 20px !important;
-
   text-decoration: none !important;
-  text-align:center;
   padding:10px 15px !important;
   font-size: 11px;
-  font-family: font-family: 'Big Shoulders Display', cursive;
+  font-family:Lexend Deca, sans-serif !important;
   font-weight: 700;
 }
 
